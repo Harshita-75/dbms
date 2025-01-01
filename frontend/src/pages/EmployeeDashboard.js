@@ -160,7 +160,7 @@ const EmployeeDashboard = () => {
                 <th style={{ padding: '10px', textAlign: 'left' }}>Name</th>
                 <th style={{ padding: '10px', textAlign: 'left' }}>Phone</th>
                 <th style={{ padding: '10px', textAlign: 'left' }}>Address</th>
-                <th style={{ padding: '10px', textAlign: 'left' }}>Joining Date</th>
+               
               </tr>
             </thead>
             <tbody>
@@ -175,7 +175,7 @@ const EmployeeDashboard = () => {
                   <td style={{ padding: '10px' }}>{emp.name}</td>
                   <td style={{ padding: '10px' }}>{emp.phone}</td>
                   <td style={{ padding: '10px' }}>{emp.address}</td>
-                  <td style={{ padding: '10px' }}>{emp.joiningDate}</td>
+                
                 </tr>
               ))}
             </tbody>
